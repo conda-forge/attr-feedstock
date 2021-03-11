@@ -1,13 +1,13 @@
 {% set name = "attr" %}
-{% set version = "2.4.48" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: http://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.gz
-  sha256: 5ead72b358ec709ed00bbf7a9eaef1654baad937c001c044fe8b74c57f5324e7
+  url: http://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.xz
+  sha256: af77acc2d4fc1346469071b9610d4454c66a4d4de92c1be6ea66b0908ec67ba5
 
 build:
   number: 0
@@ -31,7 +31,7 @@ about:
   license_file:
     - doc/COPYING
     - doc/COPYING.LGPL
-  summary: 'Commands for Manipulating Filesystem Extended Attributes'
+  summary: Commands for Manipulating Filesystem Extended Attributes
 
 extra:
   recipe-maintainers:
