@@ -1,5 +1,5 @@
 {% set name = "attr" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.gz
-  sha256: bae1c6949b258a0d68001367ce0c741cebdacdd3b62965d17e5eb23cd78adaf8
+  sha256: 39bf67452fa41d0948c2197601053f48b3d78a029389734332a6309a680c6c87
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('attr', max_pin='x.x') }}
