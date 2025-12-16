@@ -66,6 +66,9 @@ outputs:
         - doc/COPYING
       summary: Commands for Manipulating Filesystem Extended Attributes
 
+# hmaarrfk -- 2025/12
+# While this section isn't fully necessary our existing conda-forge linter
+# isn't able to deal with the lack of this section
 about:
   home: http://savannah.nongnu.org/projects/attr
   license: GPL-2.0-or-later or LGPL-2.1-or-later
@@ -76,6 +79,7 @@ about:
   summary: Commands for Manipulating Filesystem Extended Attributes
 
 extra:
+  feedstock-name: attr
   recipe-maintainers:
     - scopatz
     - saraedum
