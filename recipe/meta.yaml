@@ -66,6 +66,15 @@ outputs:
         - doc/COPYING
       summary: Commands for Manipulating Filesystem Extended Attributes
 
+about:
+  home: http://savannah.nongnu.org/projects/attr
+  license: GPL-2.0-or-later or LGPL-2.1-or-later
+  license_family: GPL
+  license_file:
+    - doc/COPYING
+    - doc/COPYING.LGPL
+  summary: Commands for Manipulating Filesystem Extended Attributes
+
 extra:
   recipe-maintainers:
     - scopatz
