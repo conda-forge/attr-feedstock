@@ -1,15 +1,15 @@
-{% set version = "2.5.2" %}
+{% set version = "2.6.0" %}
 
 package:
   name: attr-split
   version: {{ version }}
 
 source:
-  url: https://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.xz
-  sha256: f2e97b0ab7ce293681ab701915766190d607a1dba7fae8a718138150b700a70b
+  url: https://download.savannah.gnu.org/releases/attr/attr-{{ version }}.tar.gz
+  sha256: d42fa374513180bb48cb11a46696f488240e5124ff1e6ad88b0abff706985612
 
 build:
-  number: 1
+  number: 0
   skip: true  # [not linux]
 
 outputs:
